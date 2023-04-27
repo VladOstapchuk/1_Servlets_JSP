@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="taskTable:war">
+    <output-path>$PROJECT_DIR$/taskTable/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>taskTable</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="taskTable-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="taskTable:war exploded" />
+    </root>
+  </artifact>
+</component>

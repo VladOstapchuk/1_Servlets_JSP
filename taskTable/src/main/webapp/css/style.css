@@ -1,0 +1,30 @@
+
+
+table {
+    background-color: #AFEEEE;
+    border: 1px solid black;
+    border-spacing: 0;
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: thistle;
+}
+
+th {
+    padding: 7px;
+    border: 1px solid black;
+}
+
+td {
+    padding: 7px;
+    border: 1px solid black;
+}
+
+tbody > tr:hover {
+    color: azure;
+    background-color: brown;
+}
